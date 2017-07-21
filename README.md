@@ -4,7 +4,7 @@ This project is a boilerplate created for use with React Redux and expressjs. It
 
 ## Project View
 
-![](./public/image1.png)
+![](./public/image10.png)
 
 ```bash
 git clone 
