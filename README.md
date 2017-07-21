@@ -2,6 +2,10 @@
 
 This project is a boilerplate created for use with React Redux and expressjs. It is designed to work with version 4 of react router. This implements server side rendering but at this stage does not use code splitting. Its aim is to improve SEO and can be used as a teaching aid to how react router implements its server render methods.
 
+## Project View
+
+![](./public/image1.png)
+
 ```bash
 git clone 
 cd into folder
