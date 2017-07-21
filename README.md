@@ -33,7 +33,9 @@ npm run production
 ```
 
 
-Accknowlegments [Ben Lu](https://medium.com/@benlugit)
+## Acknowledgements
+
+[Ben Lu](https://medium.com/@benlugit)
 
 This project was Created with [Create React App](https://github.com/facebookincubator/create-react-app).
 
@@ -44,6 +46,7 @@ The server was Scaffolded with [Express Generator](https://expressjs.com/en/star
 
 For further information please refer to the links below
 
+## Links 
 
 [React Server Rendering Docs](https://reacttraining.com/react-router/web/guides/server-rendering)
 
