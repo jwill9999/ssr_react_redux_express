@@ -34,7 +34,7 @@ module.exports = function universalLoader(req, res) {
       // Somewhere a `<Redirect>` was rendered
       redirect(301, context.url)
     } else {
-      // we're good, send the response
+      // replaces root file with server Rendered application
       const RenderedApp = htmlData.replace('{{SSR}}', markup)
       res.send(RenderedApp)
     }

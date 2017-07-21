@@ -3,7 +3,7 @@ import reducers from './reducers/index'
 
 
 export default function configureStore(initialState = {}) {
-  // Create the store with two middlewares
+  // Add Middleware here
   const middlewares = [
  
   ]

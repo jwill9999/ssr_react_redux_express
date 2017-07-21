@@ -32,6 +32,7 @@ app.use(logger('dev'));
 
 app.use('/', index);
 
+//static path for build files
 app.use(express.static(path.resolve(__dirname, '..', 'build')))
 
 

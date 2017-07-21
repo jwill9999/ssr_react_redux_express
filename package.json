@@ -1,7 +1,11 @@
 {
-  "name": "ssr",
-  "version": "0.1.0",
+  "name": "ssr_react_redux_express",
+  "version": "1.0.0",
   "private": true,
+  "author": {
+    "name": "Jason Williams",
+    "email": "jwill9999@icloud.com"
+  },
   "dependencies": {
     "babel-register": "^6.24.1",
     "body-parser": "~1.17.1",
@@ -24,9 +28,26 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "start:server": "SET NODE_ENV=development&nodemon ./server/bin/www ",
+    "server": "start http://localhost:8080&SET NODE_ENV=development&nodemon ./server/bin/www ",
+    "production": "SET NODE_ENV=production&nodemon server/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jwill9999/ssr_react_redux_express.git"
+  },
+  "description": "React Redux Express Server side rendering using Create React App and React Router version 4",
+  "keywords": [
+    "react",
+    "redux",
+    "express",
+    "reacr router",
+    "version 4",
+    "server side rendering",
+    "seo",
+    "create react app",
+    "expresjs"
+  ]
 }
